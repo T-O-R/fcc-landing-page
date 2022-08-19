@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="hero__right">
+      <img class="hero__img" src="./img/trumpet.png" alt="trumpet">
+      <h1 class="hero__right-title">Original Trombones</h1>
+    </div>
+    <nav class="nav">
+      <ul class="nav__items">
+        <li class="nav__item"><a class="nav__item-link" href="#">Features</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#">How It Works</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="intro-email">
+      <h1>Handcrafted, home-made masterpieces</h1>
+      <input type="email" name="" value="Enter your email address"><br><br>
+      <input type="submit" name="" value="GET STARTED">
+    </section>
+
+    <!-- this part should be flexbox -->
+    <section class="section-one container">
+      <!-- PREMIUM MATERIALS -->
+      <div class="row">
+        <div class="col">
+          <img class="section-one__img" src="./img/fire.png" alt="fire">
+        </div>
+        <div class="col">
+          <h2 class="section-one__title">Fast Shipping</h2>
+          <p class="premium__description">
+            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <!-- FAST SHIPPING -->
+      <div class="row">
+        <div class="col">
+          <img class="section-one__img" src="./img/truck.png" alt="fire">
+        </div>
+        <div class="col">
+          <h2 class="section-one__title">Fast Shipping</h2>
+          <p class="section-one__description">
+            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <!-- QUALITY ASSURANCE -->
+      <div class="row">
+        <div class="col">
+          <img class="section-one__img" src="./img/battery.png" alt="battery">
+        </div>
+
+        <div class="col">
+          <h2 class="section-one__title">Quality Assurance</h2>
+          <p class="section-one__description">
+            For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EMBEDDED VIDEO -->
+    <section class="section-two container">
+      <div class="vid">
+          <iframe class="vid__video" src="https://www.youtube.com/embed/4GMbkv6_zXg" title="YouTube Trumpet   Play on YouTube with computer Keyboard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- this part should be GRID -->
+    <section class="section-three container">
+      <div class="plan-types"> <!-- GRID parent -->
+        <!-- Plan type 1 -->
+        <div class="plan">
+          <h3 class="plan__title">TENORE TROMBONE</h3>
+          <div class="grid-container">
+            <p class="plan__cost">$600</p>
+            <p class="plan__description">
+              Lorem ipsum.<br>
+              Lorem ipsum.<br>
+              Lorem ipsum dolor.<br>
+              Lorem ipsum.
+            </p>
+            <button class="plan__select">SELECT</button>
+          </div>
+        </div>
+        <!-- Plan type 2 -->
+        <div class="plan">
+          <h3 class="plan__title">BASS TROMBONE</h3>
+          <div class="grid-container">
+            <p class="plan__cost">$900</p>
+            <p class="plan__description">
+              Lorem ipsum.<br>
+              Lorem ipsum.<br>
+              Lorem ipsum dolor.<br>
+              Lorem ipsum.
+            </p>
+            <button class="plan__select">SELECT</button>
+          </div>
+
+        </div>
+        <!-- Plan type 3 -->
+        <div class="plan">
+          <h3 class="plan__title">VALVE TROMBONE</h3>
+          <div class="grid-container">
+            <p class="plan__cost">$1200</p>
+            <p class="plan__description">
+              Plays similar to a Trumpet<br>
+              Great for Jazz Bands<br>
+              Lorem ipsum dolor.<br>
+              Lorem ipsum.
+            </p>
+            <button class="plan__select">SELECT</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foo container">
+    <div class="wrapper-one">
+      <p class="right">Privacy</p>
+      <p class="right">Terms</p>
+      <p class="right">Contact</p>
+    </div>
+    <div class="wrapper">
+      Created by <b>TOR</b> &copy 2022
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+</body>
+</html>
